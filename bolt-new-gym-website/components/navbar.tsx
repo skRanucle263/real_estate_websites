@@ -18,9 +18,14 @@ export function Navbar() {
         <NavigationMenu>
           <NavigationMenuList className="hidden md:flex space-x-4">
             <NavigationMenuItem>
+              <Link href="/" legacyBehavior passHref>
+                <NavigationMenuLink className="text-sm font-medium me-3">
+                  Home
+                </NavigationMenuLink>
+              </Link>
               <Link href="/about" legacyBehavior passHref>
                 <NavigationMenuLink className="text-sm font-medium">
-                  About Us
+                  About
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>

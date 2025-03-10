@@ -31,7 +31,7 @@ export default function RegisterPage() {
 
   return (
     <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center bg-muted/50">
-      <Card className="w-full max-w-md">
+      <Card className="w-full max-w-md mb-4">
         <CardHeader>
           <CardTitle>Create an Account</CardTitle>
           <CardDescription>Join us to start your fitness journey</CardDescription>

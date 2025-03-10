@@ -30,7 +30,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-[calc(100vh-4rem)] flex items-center justify-center bg-muted/50">
-      <Card className="w-full max-w-md">
+      <Card className="w-full max-w-md mb-4">
         <CardHeader>
           <CardTitle>Welcome Back</CardTitle>
           <CardDescription>Sign in to your account to continue</CardDescription>

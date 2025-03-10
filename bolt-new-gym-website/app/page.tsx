@@ -1,5 +1,4 @@
 'use client';
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Activity, Droplets, Footprints, Brain, Calendar } from 'lucide-react';
 import Link from 'next/link';
@@ -8,7 +7,6 @@ import { motion } from 'framer-motion';
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img

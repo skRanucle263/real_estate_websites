@@ -1,5 +1,4 @@
 'use client';
-
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -44,7 +43,7 @@ const webinars = [
 export default function WebinarsPage() {
   return (
     <div className="min-h-[calc(100vh-4rem)] bg-muted/50 py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mb-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-8">Upcoming Webinars</h1>
           <div className="grid gap-8">
